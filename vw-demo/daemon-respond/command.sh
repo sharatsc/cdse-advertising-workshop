@@ -4,6 +4,7 @@ cat > train.vw <<EOF
 0 example0| a b c
 1 example1| x y z
 EOF
+cat train.vw
 read
 
 echo "Training vowpal wabbit"
